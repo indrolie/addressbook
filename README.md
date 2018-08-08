@@ -26,7 +26,7 @@ USE contacts;
 
 ```sql
 CREATE TABLE person (
-   id INT NOT NULL,
+   id INT NOT NULL AUTO_INCREMENT,
    name VARCHAR(100) NOT NULL,
    email VARCHAR(100) NOT NULL,
    phonenumber VARCHAR(100) NOT NULL,
